@@ -1,0 +1,14 @@
+#ReactHeading {
+    color: blue;
+    font-size: 24px;
+}
+
+#parent {
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+#child {
+    background-color: lightblue;
+    padding: 10px;
+}
