@@ -1,0 +1,168 @@
+#ReactHeading {
+    color: blue;
+    font-size: 24px;
+}
+
+#parent {
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+#child {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.app {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: #8f8f8f 1px solid;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-items ul {
+    font-size: larger;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.body {
+    padding: 20px;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    border: 0cqhe 1px solid #eee;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 5px auto;
+}
+
+.search-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.restaurant-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.restaurant-card {
+    border: 1px solid #ac3030;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    height: 400px;
+    width: 300px;
+}
+
+.restaurant-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: fill;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: bisque;
+    padding: 10px 20px;
+    text-align: center;
+    border-top: 0che 1px solid #eee;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.search-input {
+  padding: 0.6rem 1rem;
+  border: 1.5px solid #fc8019;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 260px;
+  margin-right: 0.5rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #ff9933;
+  box-shadow: 0 0 0 2px #ffe5cc;
+}
+
+.search-button,
+.top-rated-filter {
+  background-color: #fc8019;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin: 0 0.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: margin-right 0.2s;
+}
+
+.search-button:hover,
+.top-rated-filter:hover {
+  background-color: #ff9933;
+}
+
+.restaurant-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.restaurant-container-shimmer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.shimmer-card {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 400% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 5px;
+    height: 400px;
+    width: 300px;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
